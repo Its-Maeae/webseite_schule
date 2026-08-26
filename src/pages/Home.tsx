@@ -40,7 +40,7 @@ export default function Home() {
           © {new Date().getFullYear()} Marius Schmieder
         </span>
         <nav className="footer-links">
-          <a href="/datenschutz" className="footer-link">Quellcode der Webseite</a>
+          <a href="https://github.com/Its-Maeae/webseite_schule.git" className="footer-link" rel="noopener noreferrer" target="_blank">Quellcode der Webseite</a>
           <a href="https://m-schmieder.de" className="footer-link" rel="noopener noreferrer" target="_blank">
             Homepage
           </a>
