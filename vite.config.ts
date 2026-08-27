@@ -5,6 +5,7 @@ export default defineConfig({
   server: {
     port: 8090,
     host: true,
+    allowedHosts: ["schule.m-schmieder.de"],
     proxy: {
       "/api": {
         target: "http://localhost:3001",
