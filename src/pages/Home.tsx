@@ -14,19 +14,19 @@ export default function Home() {
           <div className="home-link-container">
             <div className="home-link-subtext">Projekte der Klassenstufe 11</div>
             <div className="home-link-content">
-              <a href="/projekte/stufe-1" className="home-link">zur Klassenstufe 11</a>
-              <div className="home-link-info">Übersicht</div>
+              <a href="/projekte/klasse11" className="home-link">zur Klassenstufe 11</a>
+              {/* <div className="home-link-info">Übersicht</div>
               <div className="home-link-heading">• Filius</div>
-              <div className="home-link-heading">• Python</div>
+              <div className="home-link-heading">• Python</div> */}
             </div>
           </div>
           <div className="home-link-container">
             <div className="home-link-subtext">Projekte der Klassenstufe 12</div>
             <div className="home-link-content">
-              <a href="/projekte/stufe-2" className="home-link">zur Klassenstufe 12</a>
-              <div className="home-link-info">Übersicht</div>
+              <a href="/projekte/klasse11" className="home-link">zur Klassenstufe 12</a>
+              {/* <div className="home-link-info">Übersicht</div>
               <div className="home-link-heading">• ....</div>
-              <div className="home-link-text"></div>
+              <div className="home-link-text"></div> */}
             </div>
             <div className="home-link-content">
               <div className="home-link-text"></div>

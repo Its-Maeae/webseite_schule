@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import ProjectsKlasse11 from "./pages/ProjectsKlasse11";
 import ProjectsKlasse12 from "./pages/ProjectsKlasse12";
+import FiliusMain from "./pages/content/klasse_11/Flilius/FiliusMain"
 import mainBG from "./assets/main_bg.webp";
 
 function RootLayout() {
@@ -22,8 +23,9 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/projekte/stufe-1", element: <ProjectsKlasse11 /> },
-      { path: "/projekte/stufe-2", element: <ProjectsKlasse12 /> },
+      { path: "/projekte/klasse11", element: <ProjectsKlasse11 /> },
+      { path: "/projekte/klasse12", element: <ProjectsKlasse12 /> },
+      { path: "/projekte/filius/Filius_main", element: <FiliusMain /> },
     ],
   },
 ]);
