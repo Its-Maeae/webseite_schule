@@ -80,7 +80,6 @@ export default function FliliusMain() {
                 <span className="list-content-sub" onClick={() => setSelected("netzwerkklassen")}>• Netzwerkklassen</span>
                 <span className="list-content-sub" onClick={() => setSelected("netzwerkkomponenten")}>• Netzwerkkomponenten</span>
                 <span className="list-content-sub" onClick={() => setSelected("dhcpProtokoll")}>• DHCP-Protokoll</span>
-                <span className="list-content-sub" onClick={() => setSelected("tcpProtokoll")}>• TCP/IP-Protokoll</span>
                 <span className="list-content-sub" onClick={() => setSelected("ftpProtokoll")}>• FTP-Protokoll</span>
                 <span className="list-content-sub" onClick={() => setSelected("dnsServer")}>• DNS-Server</span>
                 <span className="list-content-sub" onClick={() => setSelected("mailserver")}>• Mailserver</span>
@@ -115,7 +114,6 @@ export default function FliliusMain() {
                 <span className="list-content-sub" onClick={() => setSelected("netzwerkklassen")}>• Netzwerkklassen</span>
                 <span className="list-content-sub" onClick={() => setSelected("netzwerkkomponenten")}>• Netzwerkkomponenten</span>
                 <span className="list-content-sub" onClick={() => setSelected("dhcpProtokoll")}>• DHCP-Protokoll</span>
-                <span className="list-content-sub" onClick={() => setSelected("tcpProtokoll")}>• TCP/IP-Protokoll</span>
                 <span className="list-content-sub" onClick={() => setSelected("ftpProtokoll")}>• FTP-Protokoll</span>
                 <span className="list-content-sub" onClick={() => setSelected("dnsServer")}>• DNS-Server</span>
                 <span className="list-content-sub" onClick={() => setSelected("mailserver")}>• Mailserver</span>

@@ -1,7 +1,6 @@
-export default function TcpProtokoll() {
+export default function TCPIP() {
   return (
     <main className="container-components">
-      <div className="heading">TCP-Protokoll</div>
     </main>
   )
 }
